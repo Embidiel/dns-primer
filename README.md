@@ -69,7 +69,22 @@ Isa tong process para di na maground trip ulit yung browser mo sa pagkuha ng IP 
 So rare na mangyayari yung scenario na mapupunta sa Authoritative server yung request unless bago yung domain.
 
 ## DNS Records
+Makikita mo to kapag bumili ka na ng **Domain Name**. For example binili mo yung domain na facebook.com sa **Namecheap or GoDaddy**. Sa facebook.com domain may settings doon para ma manage mo yung DNS Records ni facebook.com.
+
+Yung **Namecheap or GoDaddy** naman meron silang **sariling Authoritative Nameserver** kung saan nakapaloob yung domain name na nabili mo.
+
+Pag nasa DNS Area ka na ng domain mo. Usually may mga makikita kang ganito.
+
+-   Type -- one of the DNS Record types (below 5 or any other)
+-   Host -- Use `@` for the root domain. Or, use a subdomain like `www`, `blog`.
+-   Value -- Depends on the type.
+-   TTL (optional) -- Time-to-live. Recommended to use Auto.
+-   Priority (only for MX records) -- Set the priority (Don't worry. Your email service will give that)
+
 
 ## Types of DNS Records
 
-## Reference
+Marami rami sila pero eto yung mga commonly used. Pinakagamit yung **A Record** tapos **CNAME Record.**
+
+![enter image description here](https://i.ibb.co/JnTRyKw/feqwmfekw-f.png)
+
